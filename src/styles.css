@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.all-page-container {
+  max-height: 60vh;
+  overflow: auto;
+  padding: 0px;
+}
+
+.container {
+  height: calc(100vh - 20px);
+  cursor: grab;
+  border-radius: 5px;
+  box-shadow: 0px 0px 9px 2px gray;
+  margin: 5px;
+}
+
+.active-btn {
+  background-color: greenyellow;
+}
