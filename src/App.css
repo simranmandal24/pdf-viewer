@@ -1,0 +1,66 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4f6fb;
+}
+
+/* Main container */
+.App {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+.App h2 {
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+/* File input */
+input[type="file"] {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px;
+  border: 2px dashed #6c63ff;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  background-color: #f8f9ff;
+}
+
+input[type="file"]:hover {
+  background-color: #ecebff;
+}
+
+/* PDF preview */
+iframe,
+embed {
+  width: 100%;
+  height: 500px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  .App {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  iframe,
+  embed {
+    height: 400px;
+  }
+}
