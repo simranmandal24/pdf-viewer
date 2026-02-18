@@ -10,14 +10,14 @@ body {
 }
 
 /* Main container */
-.App {
+/* .App {
   max-width: 800px;
   margin: 40px auto;
   padding: 25px;
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-}
+} */
 
 /* Heading */
 .App h2 {
@@ -63,4 +63,28 @@ embed {
   embed {
     height: 400px;
   }
+}
+.App {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.drop-zone {
+  border: 2px dashed #999;
+  border-radius: 10px;
+  padding: 40px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+
+.drop-zone.dragging {
+  border-color: #4f46e5;
+  background-color: #eef2ff;
+}
+
+.drop-zone input {
+  margin-top: 10px;
 }
